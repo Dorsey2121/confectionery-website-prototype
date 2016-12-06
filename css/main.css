@@ -105,8 +105,16 @@ header h1 {
   display: block;
 }
 
-.about {
+h2 {
+  display: inline-block;
   color: #2a1212;
+  margin: 0;
+  padding: 0 2rem;
+  border-top: solid #2a1212 .2rem;
+  border-bottom: solid #2a1212 .2rem;
+}
+
+.h2 {
   text-align: center;
 }
 
@@ -154,12 +162,41 @@ figcaption {
   display: block;
 }
 
+.link-card:hover {
+  opacity: .5;
+}
+
 .ul-chocolates {
   list-style-type: none;
+  padding: 0;
 }
 
 .chocolate-products {
   display: block;
   width: 100%;
+  border: solid #2a1212 .25rem;
+  margin: .25rem;
+}
 
+h3 {
+  font-style: italic;
+  padding-left: 1rem;
+}
+
+article + h2 {
+  text-align: center;
+}
+
+.products-link {
+  text-decoration: none;
+  display: block;
+  color: #2a1212;
+  margin: 0;
+}
+
+.products-link ~ p {
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+  font-size: .9rem;
 }
