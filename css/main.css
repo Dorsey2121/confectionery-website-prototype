@@ -24,7 +24,7 @@ body {
 
 header {
   background-color: #2a1212;
-  padding: 1rem 0;
+  padding: 2rem 0;
   text-align: center;
   position: relative;
 }
@@ -34,11 +34,15 @@ header h1 {
   font-family: 'Mr Bedfort', cursive;
   color: #b2a25b;
   font-size: 2.2rem;
+  margin-top: 0;
 }
 
-
 .logo {
-  width: 60px;
+  width: 40px;
+  position: absolute;
+  bottom: .5rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav {
@@ -63,6 +67,7 @@ header h1 {
 .nav a:hover {
   color: #2a1212;
   background-color: #fffbd8;
+  cursor: pointer;
 }
 
 .nav-check {
@@ -79,7 +84,7 @@ header h1 {
   cursor: pointer;
   font-size: 1.25rem;
   display: inline-block;
-  width: 35px;
+  width: 40px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -105,26 +110,29 @@ header h1 {
   display: block;
 }
 
-h2 {
-  display: inline-block;
-  color: #2a1212;
-  margin: 0;
-  padding: 0 2rem;
-  border-top: solid #2a1212 .2rem;
-  border-bottom: solid #2a1212 .2rem;
+main {
+ margin: 0 1rem;
 }
 
-.h2 {
-  text-align: center;
+.link-card {
+  text-decoration: none;
+  display: block;
 }
 
-p {
-  color: #2a1212;
-  text-align: justify;
+.link-card:hover {
+  opacity: .5;
+  cursor: pointer;
 }
 
-figure {
-  margin: 1rem;
+.wrapper {
+  margin: 1rem 0;
+}
+
+.home-img {
+  width: 100%;
+  border: solid #2a1212 .25rem;
+  display:block;
+  margin-bottom: 0;
 }
 
 figcaption {
@@ -132,16 +140,11 @@ figcaption {
   padding-bottom: .6rem;
 }
 
-.truffles {
-  width: 100%;
-  border: solid #2a1212 .25rem;
-  display:block;
-}
-
 .img-banner {
   color: #fffbd8;
   margin: 0 0 0 .8rem;
   font-size: 1.25rem;
+  padding: 0;
 }
 
 .img-banner ~ p {
@@ -152,39 +155,36 @@ figcaption {
   width: 90%;
 }
 
-.article {
-  margin: 0 1rem;
+article {
   max-width: 45em;
 }
 
-.link-card {
-  text-decoration: none;
-  display: block;
+.div-h2 {
+  text-align: center;
 }
 
-.link-card:hover {
-  opacity: .5;
+h2 {
+  display: inline-block;
+  color: #2a1212;
+  padding: 0 2rem;
+  border-top: solid #2a1212 .2rem;
+  border-bottom: solid #2a1212 .2rem;
+}
+
+p {
+  color: #2a1212;
+  text-align: justify;
+  margin: 0;
 }
 
 .ul-chocolates {
   list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 
-.chocolate-products {
-  display: block;
-  width: 100%;
-  border: solid #2a1212 .25rem;
-  margin: .25rem;
-}
-
-h3 {
-  font-style: italic;
-  padding-left: 1rem;
-}
-
-article + h2 {
-  text-align: center;
+.li-chocolates {
+  margin-bottom: 1rem;
 }
 
 .products-link {
@@ -194,9 +194,61 @@ article + h2 {
   margin: 0;
 }
 
-.products-link ~ p {
+h3 {
+  font-style: italic;
+  padding-left: 1rem;
+  margin: .3rem 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border: solid #2a1212 .25rem;
+  margin: .25rem 0;
+}
+
+.products-link > p {
   margin: 0;
   font-style: italic;
   text-align: center;
   font-size: .9rem;
+}
+
+.products-link:hover {
+  opacity: .5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.store-pic {
+  width: 100%;
+  display: block;
+}
+
+.store-div {
+  display: block;
+}
+
+.store-div p {
+  margin: 0 .25rem;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: .5rem 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #2a1212;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 4px solid #2a1212;
+  padding: .75em;
+  color: #fffbd8;
+}
+
+.btn:hover {
+  opacity: .5;
+  cursor: pointer;
 }
