@@ -235,7 +235,7 @@ img {
 
 .btn-wrapper {
   text-align: center;
-  margin: .5rem 0;
+  margin: .5rem 0 1rem;
 }
 
 .btn {
@@ -251,4 +251,19 @@ img {
 .btn:hover {
   opacity: .5;
   cursor: pointer;
+}
+
+table {
+  display: block;
+  text-align: left;
+  margin: 1rem 0;
+  margin-left: 15%;
+}
+
+td {
+  padding-left: 1rem;
+}
+
+time {
+  font-variant-caps: small-caps;
 }
