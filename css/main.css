@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal 100%/1.5 Georgia,serif;
+  font: normal 100%/1.5 Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -29,9 +29,8 @@ header {
   position: relative;
 }
 
-
 header h1 {
-  font-family: 'Mr Bedfort', cursive;
+  font-family: "Mr Bedfort", cursive;
   color: #b2a25b;
   font-size: 2.2rem;
   margin-top: 0;
@@ -65,9 +64,13 @@ header h1 {
 
 .nav a {
   display: block;
-  padding: 0.5em;
+  padding: .5em;
   text-decoration: none;
   color: #b2a25b;
+}
+
+.social-media a {
+  display: block;
 }
 
 .nav a:hover {
@@ -117,7 +120,7 @@ header h1 {
 }
 
 main {
- margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .link-card {
@@ -138,7 +141,7 @@ main {
 .home-img {
   width: 100%;
   border: solid #2a1212 .25rem;
-  display:block;
+  display: block;
   margin-bottom: 0;
 }
 
@@ -152,6 +155,11 @@ main {
   margin: 0 0 0 .8rem;
   font-size: 1.25rem;
   padding: 0;
+}
+
+p {
+  color: #2a1212;
+  margin: 0;
 }
 
 .img-banner ~ p {
@@ -178,17 +186,11 @@ h2 {
   border-bottom: solid #2a1212 .2rem;
 }
 
-p {
-  color: #2a1212;
-  margin: 0;
-}
-
 .about-figcaption {
-font-style: italic;
-font-size: .8rem;
-text-align: center;
+  font-style: italic;
+  font-size: .8rem;
+  text-align: center;
 }
-
 
 .ul-chocolates {
   list-style-type: none;
@@ -279,9 +281,6 @@ table {
 
 td {
   padding-left: 1rem;
-}
-
-time {
   font-variant-caps: small-caps;
 }
 
@@ -319,7 +318,6 @@ time {
   text-align: right;
 }
 
-
 footer {
   text-align: center;
   color: #fffbd8;
@@ -337,10 +335,6 @@ footer {
 
 .social-media-img {
   width: 50px;
-}
-
-.social-media a {
-display: block;
 }
 
 .social-media a:hover {
@@ -376,7 +370,7 @@ display: block;
     position: absolute;
     top: 1rem;
     left: 90%;
-    transform: 0;
+    transform: none;
   }
 
   .logo2 {
@@ -424,7 +418,7 @@ display: block;
     width: 25%;
     display: block;
     float: left;
-    margin: .5rem .5rem;
+    margin: .5rem;
   }
 
   figure.paul-bottom {
@@ -432,18 +426,18 @@ display: block;
   }
 
   .li-chocolates {
-  width: 50%;
-  float:left;
-  padding: 1rem;
+    width: 50%;
+    float: left;
+    padding: 1rem;
   }
 
   .store-text {
-  float: left;
-  width: 60%;
+    float: left;
+    width: 60%;
   }
 
   .store-div {
-  padding-top: 1rem;
+    padding-top: 1rem;
   }
 
   .btn-wrapper {
