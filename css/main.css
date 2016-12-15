@@ -517,6 +517,7 @@ display: block;
     display: inline-block;
     width: 24.5%;
     vertical-align: top;
+    height: 25em;
   }
 
   .wrapper:nth-child(5) {
@@ -553,6 +554,10 @@ display: block;
 
   .div-h2:nth-child(3) {
     clear: both;
+  }
+
+  .people-reviews {
+    height: 20em;
   }
 
 }
